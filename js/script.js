@@ -15,9 +15,9 @@
 
 // задание 3
 
-// const age =prompt('Your age?',14);
-//if ( age > 14 , age <90 ){
-// alert('Wellcom');}
+const age =prompt('Your age?',14);
+if ( age > 14 && age <90 ){
+ alert('Wellcom');}
 
 
 
