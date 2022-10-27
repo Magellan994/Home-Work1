@@ -1,28 +1,27 @@
+//function pow (x , n) {
+ //   let result = x;
 
- //задание 1
-// let result;
- //result = ( a + b < 4) ? 'Много': 'Мало';
+   // for (let i = 1; i < n; i++){
+  //      result *= x;
+  //  }
+ //   return result;
+//}
+//let x = prompt('x' );
+//let n = prompt('n');
 
-// задание 2
-//const number =prompt('?')
- //if (number>0) {
- // alert(1);
-// } else if (number <0){
- // alert(-1)
- //}else {
- // alert(0)
-// }
-
-// задание 3
-
-const age =prompt('Your age?',14);
-if ( age > 14 && age <90 ){
- alert('Wellcom');}
+//if (n < 1){
+//    alert(`${n}`)
+//} else {
+  //  alert(pow(x, n));
+//}
 
 
-
-
-
-
-
+//function min(a , b){
+   // if (a < b){
+    //    return a;
+  //  } else {
+   //     return b;
+   // }
+//}
+//console.log(min(5,7))
 
