@@ -1,27 +1,28 @@
-//function pow (x , n) {
- //   let result = x;
 
-   // for (let i = 1; i < n; i++){
-  //      result *= x;
-  //  }
- //   return result;
+
+//задание 1
+
+//function filterRange(arr,a,b){
+ //   return arr.filter(item =>(a <= item && item <= b) );
 //}
-//let x = prompt('x' );
-//let n = prompt('n');
+//let arr = [4,2,9,1];
+//let filtered = filterRange(arr,1,3)
+//alert(filtered);
+//alert(arr);
 
-//if (n < 1){
-//    alert(`${n}`)
-//} else {
-  //  alert(pow(x, n));
+//задание 2
+
+//let arr =[1,4,9,11,-6,32];
+//arr.sort((a,b)=> b - a);
+//alert(arr);
+
+//задание 3
+//function copySorted (arr){
+  //  return arr.slice ().sort();
 //}
+//let arr = ["Look" , "Door", "Just","Night"]
 
+//let sorted = copySorted(arr);
 
-//function min(a , b){
-   // if (a < b){
-    //    return a;
-  //  } else {
-   //     return b;
-   // }
-//}
-//console.log(min(5,7))
-
+//alert(sorted);
+//alert(arr);
