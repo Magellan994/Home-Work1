@@ -1,28 +1,55 @@
+//задание1
+//let user = {}
+//user.name = "John";
+//user.surname="Smith";
+//user.name ="Pete";
+//delete user.name;
+//console.log(user);
+
+//задание2
+
+//function sumSalaries(salaries){
+   // let sum = 0;
+  //  for (let salary of Object.values(salaries)) {
+  //      sum+=salary;
+  //  }
+     //   return sum;
+    //}
+ //   let salaries ={
+    //    "John":100,
+     //   "Pete":160,
+     //   "Mary":130
+   // };
+//console.log(sumSalaries(salaries));
 
 
-//задание 1
+//задание3
+//let menu ={
+ //   width:200,
+ //   height:300,
+  //  title:"My menu"
+//};
+//multiplyNumeric(menu)
 
-//function filterRange(arr,a,b){
- //   return arr.filter(item =>(a <= item && item <= b) );
+//function multiplyNumeric(obj){
+  //  for (let key in obj){
+  //      if (typeof obj [key] == 'number'){
+   //         obj [key] *=2;
+    //    }
+  //  }
 //}
-//let arr = [4,2,9,1];
-//let filtered = filterRange(arr,1,3)
-//alert(filtered);
-//alert(arr);
+//console.log(menu)
 
-//задание 2
-
-//let arr =[1,4,9,11,-6,32];
-//arr.sort((a,b)=> b - a);
-//alert(arr);
-
-//задание 3
-//function copySorted (arr){
-  //  return arr.slice ().sort();
+//задание4
+//function sortByAge(arr) {
+  //  arr.sort((a, b) => a.age > b.age ? 1: -1);
 //}
-//let arr = ["Look" , "Door", "Just","Night"]
+//let User1 = {name:"Bill",age:20};
+//let User2 = {name:"Tom",age:28};
+//let User3 = {name:"Den",age:10};
 
-//let sorted = copySorted(arr);
+//let arr = [ User1,User2,User3];
 
-//alert(sorted);
-//alert(arr);
+//sortByAge(arr);
+
+//console.log(arr)
